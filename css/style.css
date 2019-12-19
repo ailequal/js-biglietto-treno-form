@@ -19,6 +19,7 @@ h2 {
 }
 
 h4 {
+  margin: 0 0 10px 0;
   color: #ae1645;
 }
 
@@ -60,6 +61,10 @@ th, td {
 
 .price .container .row .col {
   margin: 0 50px;
+}
+
+.price .container .row .col #travel_km {
+  /* padding: 10px; */
 }
 
 .price .container .wrapper {
