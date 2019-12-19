@@ -22,6 +22,10 @@ h4 {
   color: #ae1645;
 }
 
+th, td {
+  padding: 10px;
+}
+
 .container {
   width: 80%;
   margin: 20px auto 30px auto;
@@ -69,4 +73,5 @@ h4 {
 
 .ticket .container .row .name_surname {
   background-color: #747474;
+  padding: 10px;
 }
