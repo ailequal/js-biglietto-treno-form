@@ -35,6 +35,14 @@ th, td {
   background-color: #ffffff;
 }
 
+.main > .display_block {
+  display: block;
+}
+
+.main > .display_none {
+  display: none;
+}
+
 .btn {
   margin: 0 20px;
   font-weight: bold;

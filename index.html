@@ -27,6 +27,7 @@
             <div class="col">
               <h4>Age</h4>
               <select id="user_age" name="age">
+                <option value="" selected disabled hidden></option>
                 <option value="minor">Minor</option>
                 <option value="adult">Adult</option>
                 <option value="over65">Over 65</option>
@@ -35,11 +36,11 @@
           </div>
           <div class="wrapper">
             <button id="btn_gen" class="btn" type="button" name="button">Generate</button>
-            <button id="canc" class="btn" type="button" name="button">Cancel</button>
+            <button id="btn_canc" class="btn" type="button" name="button">Cancel</button>
           </div>
         </div>
       </section>
-      <section class="ticket">
+      <section id="ticket" class="ticket display_none">
         <h2>Your ticket</h2>
         <div class="container">
           <h3>User information</h3>
