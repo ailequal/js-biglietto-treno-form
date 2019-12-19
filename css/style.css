@@ -1,3 +1,4 @@
+/* general */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,6 +6,24 @@
 }
 
 body {
+  background-color: #ae1645;
   font-size: 16px;
-  color: blue;
 }
+
+h2 {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.container {
+  background-color: #ffffff;
+}
+
+/* header */
+.title {
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* main */
