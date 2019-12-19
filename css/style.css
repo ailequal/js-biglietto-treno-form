@@ -6,24 +6,67 @@
 }
 
 body {
+  min-width: 1024px;
+  min-height: 576px;
   background-color: #ae1645;
   font-size: 16px;
 }
 
 h2 {
+  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
 
+h4 {
+  color: #ae1645;
+}
+
 .container {
+  width: 80%;
+  margin: 20px auto 30px auto;
+  padding: 20px;
+  border-radius: 10px;
   background-color: #ffffff;
+}
+
+.btn {
+  margin: 0 20px;
+  font-weight: bold;
+  color: #ae1645;
 }
 
 /* header */
 .title {
+  margin: 20px auto 40px auto;
   font-size: 40px;
   text-align: center;
   color: #ffffff;
 }
 
 /* main */
+.price .container {
+  text-align: center;
+}
+
+.price .container .row {
+  display: flex;
+  justify-content: center;
+}
+
+.price .container .row .col {
+  margin: 0 50px;
+}
+
+.price .container .wrapper {
+  margin: 30px 0 0 0;
+}
+
+.ticket .container .row {
+  display: flex;
+  border: 2px solid #747474;
+}
+
+.ticket .container .row .name_surname {
+  background-color: #747474;
+}
