@@ -34,7 +34,7 @@ btnGen.addEventListener('click',
     wagon.innerHTML = Math.floor(Math.random() * 10) + 1;
     // random reservation code generator
     var reservationCode = document.getElementById('reservation_code');
-    reservationCode.innerHTML = Math.floor(Math.random() * 100000) + 1;
+    reservationCode.innerHTML = Math.floor(Math.random() * (100000 - 90000 + 1) + 90000);
     // set ticket section display
     var ticket = document.getElementById('ticket');
     ticket.className = 'ticket display_block';
